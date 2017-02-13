@@ -54,6 +54,9 @@ class RbacWebModule extends BaseModule
      */
     public $modelSettings = [];
     
+    /** @var bool Whether to show flash messages. */
+    public $enableFlashMessages = true;
+    
     /** @inheritdoc */
     public function behaviors()
     {
